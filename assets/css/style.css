@@ -185,11 +185,72 @@ footer p {
         color: #ffffff;
         background-color: #4aaaa5;
     }
+
 }
-S
+
+@media screen and (max-width: 980px) {
+    .content {
+        width: 90%;
+    }
+   
+    header {
+        height: auto;
+        width: 980px;
+    }
+
+    .banner {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    h1 {
+        float: none;
+        font-size: 24px;
+        margin: 0 ;
+        text-align: center;
+    }
+
+    a {
+        float: none;
+        font-size: 14px;
+        margin: 10px 0 0 0 ;
+        padding: 0 12.5%;
+        
+    }
+
+}
+
+
 @media screen and (max-width: 768px) {
     .content {
         width: 90%;
+    }
+
+    header {
+        height: auto;
+        width: 768px;
+    }
+
+    .banner {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    h1 {
+        float: none;
+        font-size: 24px;
+        margin: 0 ;
+        text-align: center;
+    }
+
+    a {
+        float: none;
+        font-size: 14px;
+        margin: 10px 0 0 0 ;
+        padding: 0 12.5%;
+        
     }
 }
 
